@@ -1,0 +1,55 @@
+<style>
+.gentle-penguin-section {
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  color: #000;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 58px 0 140px;
+  font: 400 64px Inter, sans-serif;
+}
+
+.penguin-image {
+  aspect-ratio: 0.69;
+  object-fit: contain;
+  object-position: center;
+  width: 572px;
+  background-blend-mode: normal;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 240px;
+}
+
+.penguin-description {
+  width: 845px;
+}
+
+@media (max-width: 991px) {
+  .gentle-penguin-section {
+    padding-bottom: 100px;
+    font-size: 40px;
+  }
+
+  .penguin-image {
+    max-width: 100%;
+  }
+
+  .penguin-description {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+</style>
+
+<section class="gentle-penguin-section">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b418ca055f02d345639dba6784d6abbc60f8e780745d900a8f0c9c565a4cb6e1?placeholderIfAbsent=true&apiKey=59f906129b2c481aab3bae124e7c33c4" class="penguin-image" alt="Gentle Penguin character" />
+  <p class="penguin-description">
+    このカワイイキャラクターは<br />
+    ジェントルペンギンです。<br />
+    彼は聖光学院高等学校におり、<br />
+    聖光祭では彼のぬいぐるみが<br />
+    1000円で売られています。
+  </p>
+</section>
